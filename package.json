@@ -1,0 +1,30 @@
+{
+	"name": "Base64",
+	"version": "1.0.0",
+	"description": "A robust base64 encoder/decoder that is fully compatible with `atob()` and `btoa()`, written in JavaScript.",
+	"homepage": "https://github.com/PortalDK/Base64",
+	"main": "base64.js",
+	"keywords": [
+		"codec",
+		"decoder",
+		"encoder",
+		"base64",
+		"atob",
+		"btoa"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PortalDK/Base64"
+	},
+	"bugs": "https://github.com/PortalDK/Base64/issues",
+	"files": [
+		"base64.js"
+	],
+	"scripts": {
+		"test": "mocha tests/tests.js",
+		"build": "grunt build"
+	},
+	"devDependencies": {
+	}
+}
